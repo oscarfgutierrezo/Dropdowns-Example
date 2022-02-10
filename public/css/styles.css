@@ -1,5 +1,9 @@
 .dropdown-menu {
     position: static;
+    display: block;
+}
+
+.dropdown-menu-macos {
     display: grid;
     gap: 4px;
     border-radius: 8px;
@@ -16,4 +20,13 @@
 .form-control-dark {
     background-color: rgba(255, 255, 255, .05);
     border-color: rgba(255, 255, 255, .15);
-  }
+}
+
+.dropdown-item-danger{
+    color: #dc3545;
+}
+
+.dropdown-item-danger:hover, .dropdown-item-danger:focus {
+    color: #fff;
+    background-color: #dc3545;
+}
