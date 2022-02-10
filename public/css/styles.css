@@ -54,3 +54,12 @@
 .btn-cal:focus {
     background-color: rgba(0, 0, 0, .05);
 }
+
+#fa-image, #fa-circle-question {
+    font-size: 32px;
+}
+
+.btn-hover-light:hover, .btn-hover-light:focus {
+    color: var(--bs-blue);
+    background-color: var(--bs-light);
+}
