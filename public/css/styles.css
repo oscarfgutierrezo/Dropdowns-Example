@@ -30,3 +30,27 @@
     color: #fff;
     background-color: #dc3545;
 }
+
+.cal__month, .cal__weekdays, .cal__days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+}
+
+.cal__month-name {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    text-align: center;
+}
+
+.btn-cal, .cal__weekdays-name {
+    height: 48px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-cal:focus {
+    background-color: rgba(0, 0, 0, .05);
+}
